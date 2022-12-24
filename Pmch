@@ -1,0 +1,8 @@
+Rosalind Problem : Perfect Matchings and RNA Secondary Structures
+
+from math import factorial
+
+seq = 'UGGAGUUAUUAACCUUAGCGCGCCGUCUGAUCAAGAGAGUCGAUAACCCAGCAGUGAUGUCAUUUACAUC'
+
+match = factorial(seq.count('U')) * factorial(seq.count('G'))
+print(match)
